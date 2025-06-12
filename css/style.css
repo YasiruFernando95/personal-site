@@ -1,8 +1,8 @@
 .gradient-background {
-    background: linear-gradient(300deg, #222831, #393E46, #00ADB5);
+    background: linear-gradient(300deg, #282828, #3c3836, #458588);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-  }
+}
 
 #navbar {
     font-family: "Roboto Mono", sans-serif;
@@ -11,7 +11,7 @@
 h1 {
     font-family: "Playwrite US Modern";
     font-size: 5rem;
-    color: white;
+    color: #ebdbb2;
     text-align: center;
     margin-top: 12rem;
 }
@@ -19,13 +19,14 @@ h1 {
 h2 {
     font-family: "Roboto";
     text-align: center;
+    color: #fabd2f;
 }
 
 .desc {
     font-family: "Roboto";
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: #ebdbb2;
 }
 
 .my-img {
@@ -34,6 +35,7 @@ h2 {
 
 p {
     text-align: justify;
+    color: #ebdbb2;
 }
 
 /* .flex-container {
@@ -53,18 +55,18 @@ p {
     width: 4rem;
     height: 4rem;
     border-radius: .75rem;
-    background-color: #00ADB5;
+    background-color: #8ec07c;
 }
 
 .navbar {
-    background-color: #222831;
+    background-color: #1d2021;
 }
 
 #skills {
-    background-color: #393E46;
+    background-color: #3c3836;
 }
 
-  @keyframes gradient-animation {
+@keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
     }
@@ -74,7 +76,8 @@ p {
     100% {
       background-position: 0% 50%;
     }
-  }
+}
+
 @media all and (min-width: 601px) {
     h1 {
         font-size: 5rem;
